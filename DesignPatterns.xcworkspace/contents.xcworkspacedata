@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DecoratorPattern">
+   </FileRef>
+   <FileRef
       location = "group:ObserverPatternCombine">
    </FileRef>
    <FileRef
