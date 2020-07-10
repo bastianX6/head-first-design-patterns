@@ -1,3 +1,5 @@
-# 001-strategy
+# strategy
 
-A description of this package.
+This package contains example code of aplying strategy pattern.
+
+**The Strategy pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
