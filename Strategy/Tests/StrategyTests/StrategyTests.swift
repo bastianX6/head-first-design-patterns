@@ -1,4 +1,4 @@
-@testable import strategy
+@testable import Strategy
 import XCTest
 
 final class StrategyTests: XCTestCase {

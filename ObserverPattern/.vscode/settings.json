@@ -1,0 +1,18 @@
+{
+    "sde.languageServerMode": "sourcekit-lsp",
+    "sourcekit-lsp.serverPath": "/home/bastian/DEV/swift-5.2.4-RELEASE-ubuntu20.04/usr/bin/sourcekit-lsp",
+    "sourcekit-lsp.toolchainPath": "/home/bastian/DEV/swift-5.2.4-RELEASE-ubuntu20.04/",
+    "swift.path.swift_driver_bin": "/home/bastian/DEV/swift-5.2.4-RELEASE-ubuntu20.04/usr/bin/swift",
+    "swift.targets": [
+        {
+          "name": "ObserverPattern",
+          "path": "${workspaceFolder}/Sources",
+          "sources": ["**/*.swift"]
+        },
+        {
+            "name": "ObserverPatternTests",
+            "path": "${workspaceFolder}/Tests",
+            "sources": ["**/*.swift"]
+          }
+      ]
+}

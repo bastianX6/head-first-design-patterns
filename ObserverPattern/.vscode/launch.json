@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Running executables
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "ObserverPatternTests Linux",
+            "linux": {},
+            "program": "${workspaceFolder}/.build/debug/ObserverPatternPackageTests.xctest",
+            "preLaunchTask": "swift-build-tests"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import XCTest
 
-import strategyTests
+import StrategyTests
 
 var tests = [XCTestCaseEntry]()
 tests += StrategyTests.allTests()
