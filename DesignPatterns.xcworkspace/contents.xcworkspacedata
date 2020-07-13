@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Strategy">
+   </FileRef>
+   <FileRef
       location = "group:DecoratorPattern">
    </FileRef>
    <FileRef
@@ -9,8 +12,5 @@
    </FileRef>
    <FileRef
       location = "group:ObserverPattern">
-   </FileRef>
-   <FileRef
-      location = "group:001-strategy">
    </FileRef>
 </Workspace>
