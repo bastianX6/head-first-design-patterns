@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FactoryPattern">
+   </FileRef>
+   <FileRef
       location = "group:Strategy">
    </FileRef>
    <FileRef
