@@ -1,7 +1,7 @@
 @testable import FactoryPattern
 import XCTest
 
-final class FactoryPatternTests: XCTestCase {
+final class FactoryMethodTests: XCTestCase {
     func testFactory() {
         let factory: PizzaFactory = SimplePizzaFactory()
 

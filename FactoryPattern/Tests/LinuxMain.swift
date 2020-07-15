@@ -3,5 +3,5 @@ import XCTest
 import FactoryPatternTests
 
 var tests = [XCTestCaseEntry]()
-tests += FactoryPatternTests.allTests()
+tests += FactoryMethodTests.allTests()
 XCTMain(tests)

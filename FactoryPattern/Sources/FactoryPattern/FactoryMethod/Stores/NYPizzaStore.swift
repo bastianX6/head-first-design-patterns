@@ -10,15 +10,15 @@ import Foundation
 class NYPizzaStore: PizzaStore {
     func createPizza(ofType type: String) -> Pizza? {
         guard let pizzaType = NYPizzaType(rawValue: type) else { return nil }
-        let pizza: Pizza
+        var pizza: Pizza?
+
         switch pizzaType {
         case .cheese:
             pizza = NYStyleCheesePizza()
+        default:
+            break
         }
+
         return pizza
     }
-}
-
-enum NYPizzaType: String {
-    case cheese
 }
