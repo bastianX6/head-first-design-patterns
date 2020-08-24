@@ -8,7 +8,7 @@
 import Foundation
 
 class PancakeHouseMenu {
-    private var menuItems: [MenuItem]
+    private(set) var menuItems: [MenuItem]
 
     init() {
         self.menuItems = []

@@ -12,7 +12,7 @@ class DinerMenu {
     private var numberOfItems = 0
 
     // I used a dictionary to simulate the difference between java's array and arraylist
-    private var menuItems: [Int: MenuItem]
+    private(set) var menuItems: [Int: MenuItem]
 
     init() {
         self.menuItems = [:]

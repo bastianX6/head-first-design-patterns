@@ -25,6 +25,7 @@ class CustomIteratorWaitress: Waitress {
         self.printMenu(iterator: pancakeIterator)
         self.output += "\n\nLUNCH\n"
         self.printMenu(iterator: dinerIterator)
+        self.output = String(self.output.dropLast())
         print(self.output)
     }
 
@@ -37,10 +38,7 @@ class CustomIteratorWaitress: Waitress {
             guard let element = try? iterator.next() else {
                 continue
             }
-            self.output += "\(element.name), \(element.price) -- \(element.description)"
-            if iterator.hasNext() {
-                self.output += "\n"
-            }
+            self.output += "\(element.name), \(element.price) -- \(element.description)\n"
         }
     }
 }
