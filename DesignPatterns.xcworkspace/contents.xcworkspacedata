@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CompositePattern">
+   </FileRef>
+   <FileRef
       location = "group:IteratorPattern">
    </FileRef>
    <FileRef
