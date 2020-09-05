@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1160"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdapterPatternTests"
+               BuildableName = "AdapterPatternTests"
+               BlueprintName = "AdapterPatternTests"
+               ReferencedContainer = "container:Structural/AdapterPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BuilderPatternTests"
+               BuildableName = "BuilderPatternTests"
+               BlueprintName = "BuilderPatternTests"
+               ReferencedContainer = "container:Creational/BuilderPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CommandPatternTests"
+               BuildableName = "CommandPatternTests"
+               BlueprintName = "CommandPatternTests"
+               ReferencedContainer = "container:Behavioral/CommandPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CompositePatternTests"
+               BuildableName = "CompositePatternTests"
+               BlueprintName = "CompositePatternTests"
+               ReferencedContainer = "container:Structural/CompositePattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DecoratorPatternTests"
+               BuildableName = "DecoratorPatternTests"
+               BlueprintName = "DecoratorPatternTests"
+               ReferencedContainer = "container:Structural/DecoratorPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FacadePatternTests"
+               BuildableName = "FacadePatternTests"
+               BlueprintName = "FacadePatternTests"
+               ReferencedContainer = "container:Structural/FacadePattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FactoryPatternTests"
+               BuildableName = "FactoryPatternTests"
+               BlueprintName = "FactoryPatternTests"
+               ReferencedContainer = "container:Creational/FactoryPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "IteratorPatternTests"
+               BuildableName = "IteratorPatternTests"
+               BlueprintName = "IteratorPatternTests"
+               ReferencedContainer = "container:Behavioral/IteratorPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ObserverPatternTests"
+               BuildableName = "ObserverPatternTests"
+               BlueprintName = "ObserverPatternTests"
+               ReferencedContainer = "container:Behavioral/ObserverPattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ObserverPatternCombineTests"
+               BuildableName = "ObserverPatternCombineTests"
+               BlueprintName = "ObserverPatternCombineTests"
+               ReferencedContainer = "container:Behavioral/ObserverPatternCombine">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "StatePatternTests"
+               BuildableName = "StatePatternTests"
+               BlueprintName = "StatePatternTests"
+               ReferencedContainer = "container:Behavioral/StatePattern">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "StrategyTests"
+               BuildableName = "StrategyTests"
+               BlueprintName = "StrategyTests"
+               ReferencedContainer = "container:Behavioral/Strategy">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TemplateMethodPatternTests"
+               BuildableName = "TemplateMethodPatternTests"
+               BlueprintName = "TemplateMethodPatternTests"
+               ReferencedContainer = "container:Behavioral/TemplateMethodPattern">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

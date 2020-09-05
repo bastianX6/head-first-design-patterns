@@ -2,42 +2,42 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BuilderPattern">
+      location = "group:Structural/AdapterPattern">
    </FileRef>
    <FileRef
-      location = "group:StatePattern">
+      location = "group:Creational/BuilderPattern">
    </FileRef>
    <FileRef
-      location = "group:CompositePattern">
+      location = "group:Behavioral/CommandPattern">
    </FileRef>
    <FileRef
-      location = "group:IteratorPattern">
+      location = "group:Structural/CompositePattern">
    </FileRef>
    <FileRef
-      location = "group:TemplateMethodPattern">
+      location = "group:Structural/DecoratorPattern">
    </FileRef>
    <FileRef
-      location = "group:FacadePattern">
+      location = "group:Structural/FacadePattern">
    </FileRef>
    <FileRef
-      location = "group:AdapterPattern">
+      location = "group:Creational/FactoryPattern">
    </FileRef>
    <FileRef
-      location = "group:CommandPattern">
+      location = "group:Behavioral/IteratorPattern">
    </FileRef>
    <FileRef
-      location = "group:FactoryPattern">
+      location = "group:Behavioral/ObserverPattern">
    </FileRef>
    <FileRef
-      location = "group:Strategy">
+      location = "group:Behavioral/ObserverPatternCombine">
    </FileRef>
    <FileRef
-      location = "group:DecoratorPattern">
+      location = "group:Behavioral/StatePattern">
    </FileRef>
    <FileRef
-      location = "group:ObserverPatternCombine">
+      location = "group:Behavioral/Strategy">
    </FileRef>
    <FileRef
-      location = "group:ObserverPattern">
+      location = "group:Behavioral/TemplateMethodPattern">
    </FileRef>
 </Workspace>
